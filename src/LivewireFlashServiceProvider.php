@@ -1,6 +1,6 @@
 <?php
 
-namespace WebdoCZ\LivewireFlash;
+namespace Webdo-CZ\LivewireFlash;
 
 use Livewire\Livewire;
 use Illuminate\Support\ServiceProvider;
@@ -32,6 +32,6 @@ class LivewireFlashServiceProvider extends ServiceProvider
             __DIR__ . '/publish' => config_path()
         ]);
 
-        Livewire::component('flash-messages', \WebdoCZ\LivewireFlash\Livewire\FlashMessages::class);
+        Livewire::component('flash-messages', \Webdo-CZ\LivewireFlash\Livewire\FlashMessages::class);
     }
 }
