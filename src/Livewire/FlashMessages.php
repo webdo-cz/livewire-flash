@@ -1,6 +1,6 @@
 <?php
 
-namespace Webdo-CZ\LivewireFlash\Livewire;
+namespace WebdoCZ\LivewireFlash\Livewire;
 
 use Livewire\Component;
 

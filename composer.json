@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Webdo-CZ\\LivewireFlash\\": "src/"
+            "WebdoCZ\\LivewireFlash\\": "src/"
         },
         "files": [
             "src/functions.php"
@@ -28,7 +28,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Webdo-CZ\\LivewireFlash\\LivewireFlashServiceProvider"
+                "WebdoCZ\\LivewireFlash\\LivewireFlashServiceProvider"
             ]
         }
     }
