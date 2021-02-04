@@ -1,10 +1,10 @@
 {
-    "name": "crrack/livewire-flash",
+    "name": "webdo-cz/livewire-flash",
     "description": "Flash messages using Livewire",
     "license": "MIT",
     "authors": [
         {
-            "name": "Ondřej Štěpán",
+            "name": "Webdo-CZ - Ondřej Štěpán",
             "email": "o.stepan@outlook.com"
         }
     ],
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Crrack\\LivewireFlash\\": "src/"
+            "Webdo-CZ\\LivewireFlash\\": "src/"
         },
         "files": [
             "src/functions.php"
@@ -28,7 +28,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Crrack\\LivewireFlash\\LivewireFlashServiceProvider"
+                "Webdo-CZ\\LivewireFlash\\LivewireFlashServiceProvider"
             ]
         }
     }
