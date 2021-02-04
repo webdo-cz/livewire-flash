@@ -1,6 +1,6 @@
 <?php
 
-namespace Crrack\LivewireFlash\Livewire;
+namespace Webdo\LivewireFlash\Livewire;
 
 use Livewire\Component;
 
